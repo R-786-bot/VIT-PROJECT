@@ -45,21 +45,17 @@ Follow these steps to get a local copy up and running.
 
 ### Installation & Execution
 
-1.  **Clone the Repository:**
-    ```bash
-    ```
-
-2.  **Import into Eclipse IDE:**
+1.  **Import into Eclipse IDE:**
     * Navigate to `File` > `Import` > `General` > `Existing Projects into Workspace`.
     * Select the cloned repository directory.
 
-3.  **Compile the Project:**
+2.  **Compile the Project:**
     * Open a terminal or command prompt in the project's root directory and run:
     ```bash
     javac -d bin src/edu/ccrm/cli/Main.java
     ```
 
-4.  **Execute the Application:**
+3.  **Execute the Application:**
     * Run the following command. The `-ea` flag is important as it **enables assertions** used for internal validation.
     ```bash
     java -ea -cp bin edu.ccrm.cli.Main
@@ -133,4 +129,5 @@ This table highlights where key OOP and Java concepts are implemented within the
 
 ### Academic Integrity
 This project represents my own individual work. In accordance with academic guidelines, no external code or assistance from Large Language Models (LLMs) was used in its creation. All referenced materials are cited above.
+
 
